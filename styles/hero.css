@@ -1,0 +1,49 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 32px;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--color-brand);
+}
+
+.hero__subtitle {
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--color-text-base);
+    margin-top: 8px;
+    margin-bottom: 47px;
+}
+
+.hero__img {
+    background: url(../assets/images/hero-rocket-purple.png) center/contain;
+    width: 265px;
+    height: 265px;
+    margin: auto;
+
+}
+
+
+.hero__cta-button {
+    margin-top: 63px;
+    width: 204px;
+    border-radius: 10px;
+    height: 42px;
+    line-height: 42px;
+    left: 94px;
+    padding-right: 38px;
+    padding-left: 38px;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--color-button-primary);
+    background: var(--color-brand);
+    margin: 63px auto 47px;
+}
+
+
+
+
