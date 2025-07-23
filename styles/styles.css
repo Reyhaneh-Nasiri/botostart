@@ -1,5 +1,14 @@
 @import url('./yekanBakh.css');
 
+:root {
+  --color-text-base: #282828;
+  --color-brand: #8A6EF8;
+  --color-background: #fff;
+  --color-button-primary: #fff;
+  --font-main: "YekanBakh", sans-serif;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +17,8 @@
 
 
 body {
-    font-family: "YekanBakh", sans-serif;
+    font-family: var(--font-main);
+    color: var(--color-text-base);
 }
 
 
