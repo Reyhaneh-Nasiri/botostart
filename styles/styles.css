@@ -30,7 +30,9 @@ ul {
     list-style: none;
 }
 
-
+button{
+    font-family: inherit;
+}
 
 main {
     border-top-left-radius: 41px;
